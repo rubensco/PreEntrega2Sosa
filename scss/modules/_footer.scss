@@ -1,0 +1,12 @@
+footer {
+  grid-area: footer;
+  background-color:map-get($paleta_colores, "gris");
+  }
+  
+  
+  .imagenes img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }

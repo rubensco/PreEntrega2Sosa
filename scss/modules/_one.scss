@@ -1,0 +1,24 @@
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .imagenes {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+      max-width: 100%;
+      padding: 0 10px; /* Opcional: agrega un espaciado lateral */
+    }
+  }
+  
+  /* Estilos para pantallas más grandes */
+  @media (min-width: 768px) {
+    .imagenes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px; /* Opcional: agrega un espaciado lateral */
+    }
+  }
+  
+  

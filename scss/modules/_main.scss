@@ -1,0 +1,50 @@
+main {
+    grid-area: main;
+  background-color:$black;
+}
+
+.btn.btn-primary.btn-lg {
+  width: 150px;
+  height: 50px;
+  transition: width 0.3s ease, height 0.3s ease;
+}
+.btn.btn-primary.btn-lg:hover {
+  width: 200px;
+  height: 60px;
+}
+
+.btn.btn-secondary {
+ 
+   width: 150px;
+   height: 45px;
+  transition: width 0.3s ease, height 0.3s ease;
+}
+.btn.btn-secondary:hover {
+  background-color:map-get($paleta_colores , "verde" );
+  width: 180px;
+  height: 50px;
+}
+#boton_pie {
+  background-color: map-get($paleta_colores, "orange" );
+  display: inline-block;
+  perspective: 500px; /* Establece una perspectiva para el efecto */
+  transform-style: preserve-3d; /* Mantén el estilo 3D del contenido */
+  transition: transform 0.3s ease;
+}
+ 
+#boton_pie:hover {
+  transform: translateY(-5px) translateZ(5px) rotateX(-10deg);
+  background-color:map-get($paleta_colores, "amarillo");
+}
+
+.btn.btn-primary {
+  width: 150px;
+  height: 50px;
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+.btn.btn-primary:hover {
+ 
+  width: 200px;
+  height: 60px;
+}

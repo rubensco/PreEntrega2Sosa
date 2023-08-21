@@ -1,0 +1,12 @@
+body {
+    height:100vh;
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    justify-content: space-around;
+    grid-template-areas: 
+    "header header header"
+    "main main main "
+    "footer footer footer ";
+  }
+  

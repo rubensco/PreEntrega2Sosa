@@ -1,0 +1,79 @@
+header {
+    grid-area: header;
+  }
+  
+  .navbar-brand {
+    width: 150px;
+    height: 60px;
+    background-color:rgb(48, 211, 75);
+    border-radius: 7px;
+    animation-name: claseruben;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-in;
+    animation-duration:15s;
+    animation-delay:1s;
+  }
+
+  @keyframes claseruben {
+    0%{ width: 130px;}
+    10%{ width:120px;}
+    25% { width:300px;}
+  50%{width:200px;
+  background-color:rgb(182, 179, 179);}
+  75%{width:300px}
+  100% {width:120px;
+  background-color:rgb(128, 128, 128)}
+  }
+
+   
+  .btn.btn-outline-success.my-2.my-sm-0 {
+    transform: rotate(10deg);
+  }
+
+  header ul {
+    height: 50px;
+  background-color: rgb(58 , 58, 58);
+  flex-grow:2;
+  display: grid;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  align-items: center;
+  }
+  
+  
+  header ul li {
+    list-style-type: none; 
+  }
+  
+  
+  a {
+    padding:10px; 
+  margin-bottom:10px;
+  text-decoration:none;
+  color:$black;
+  }
+  
+  
+  nav {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content:space-between ; 
+  }
+  
+  
+  nav {
+    grid-area: nav;
+    background-color:$gris;
+  }
+  
+  
+  img  {
+    
+     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+     max-width: 100%;
+   } 
+  
+  
+  
+  

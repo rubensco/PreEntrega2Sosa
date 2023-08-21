@@ -1,0 +1,13 @@
+@import "./modules/variables";
+@import "./modules/mixin";
+@import "./modules/mapas";
+@import "./modules/reset";
+@import "./modules/body";
+@import "./modules/header";
+@import "./modules/main";
+@import "./modules/footer";
+@import "./modules/one";
+body {
+    @include reset;
+}
+
