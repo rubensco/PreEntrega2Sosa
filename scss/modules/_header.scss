@@ -2,29 +2,6 @@ header {
     grid-area: header;
   }
   
-  .navbar-brand {
-    width: 150px;
-    height: 60px;
-    background-color:rgb(48, 211, 75);
-    border-radius: 7px;
-    animation-name: claseruben;
-    animation-iteration-count: 5;
-    animation-timing-function: ease-in;
-    animation-duration:15s;
-    animation-delay:1s;
-  }
-
-  @keyframes claseruben {
-    0%{ width: 130px;}
-    10%{ width:120px;}
-    25% { width:300px;}
-  50%{width:200px;
-  background-color:rgb(182, 179, 179);}
-  75%{width:300px}
-  100% {width:120px;
-  background-color:rgb(128, 128, 128)}
-  }
-
    
   .btn.btn-outline-success.my-2.my-sm-0 {
     transform: rotate(10deg);
@@ -46,6 +23,19 @@ header {
     list-style-type: none; 
   }
   
+.navbar-brand{
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  
+}
+
+  .nav-link{
+    font-family: 'Helvetica Neue', sans-serif;
+  font-size: 20px; /* Tamaño de fuente deseado */
+  font-weight: bold;
+  align-items: center;
+  }
+
   
   a {
     padding:10px; 

@@ -8,7 +8,7 @@
     <meta name="keywords" content="contacto, muebles de melamina, consulta de muebles, preguntas sobre muebles"/>
     <meta name="author" content="">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="icon" href="../favicon.ico">
+    <link rel="icon" href="../assets/favicon.ico">
 
     <title>Preguntas y Consultas sobre Muebles de Melamina</title>
 
@@ -19,9 +19,10 @@
   </head>
 
   <body>
+    <header>
 
     <nav class="mb-10 navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">Bienvenidos</a>
+      <a class="navbar-brand" href="#">MELAMINAPROO</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -47,11 +48,12 @@
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search">
+          
         </form>
       </div>
     </nav>
+  </header>
 
     <main role="main">
 
@@ -59,7 +61,7 @@
       <div class="jumbotron">
         <div class="container">
           <h1 class="display-3" style="margin-top: 50px;">Contáctanos</h1>
-          <p>¿Tienes alguna pregunta o consulta? ¡Estamos aquí para ayudarte! Completa el formulario a continuación y te responderemos a la brevedad posible.</p>
+          <p class="mi-clase">¿Tienes alguna pregunta o consulta? ¡Estamos aquí para ayudarte! Completa el formulario a continuación y te responderemos a la brevedad posible.</p>
         </div>
       </div>
     
@@ -68,11 +70,15 @@
         <!-- Formulario de contacto -->
         <div class="row mt-4">
           <div class="col-md-12">
-            <h2>Envíanos un mensaje</h2>
+            <h2 class="mensaje">Envíanos un mensaje</h2>
             <form>
               <div class="form-group">
                 <label for="nombre">Nombre:</label>
                 <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+              </div>
+              <div class="form-group">
+                <label for="nombre">Apellido:</label>
+                <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido">
               </div>
               <div class="form-group">
                 <label for="email">Email:</label>
@@ -90,10 +96,9 @@
       </div> 
       
     </main>
-    <br/>
-    <br/>
+   
     
-    <footer id="pie">
+    <footer id="pie" style="margin-top: 20px;">
       <a href="#"><button id="boton_pie">ARRIBA</button></a>
       <div class="footer-top">
         <div class="container">
@@ -112,9 +117,9 @@
               <h3>SEGUINOS</h3>
               <ul class="social-media">
   
-                <li><img src="../assets/imag/whatsapp_icon1.svg" width="30" height="30"></li>
-                <li><img src="../assets/imag/Facebook_icon2.svg" width="30" height="30"></li>
-                <li><img src="../assets/imag/instagramicon2.svg" width="30" height="30"></li>
+                <li><a href="https://api.whatsapp.com/"target="blank"><img src="../assets/imag/whatsapp_icon1.svg" width="30" height="30"></a></li>
+                  <li><a href="https://es-la.facebook.com/" target="_blank"><img src="../assets/imag/Facebook_icon2.svg" width="30" height="30"></a></li>
+                  <li><a href="https://www.instagram.com/" target="_blank"><img src="../assets/imag/instagramicon2.svg" width="30" height="30"></a></li>
             </div>
           </div>
         </div>
